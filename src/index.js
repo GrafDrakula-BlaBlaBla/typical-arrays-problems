@@ -24,10 +24,10 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
+
   if(array.length) {
     let len = array.length
     return array.reduce((accum, curr) => accum + curr) / len;
   }
 
-  return 0;
 }
